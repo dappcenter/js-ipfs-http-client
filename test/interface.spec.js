@@ -126,16 +126,20 @@ describe('interface-ipfs-core tests', () => {
         reason: 'TODO unskip when go-ipfs supports --long https://github.com/ipfs/go-ipfs/pull/6528'
       },
       {
+<<<<<<< HEAD
         name: 'should ls directory and include metadata',
         reason: 'TODO not implemented in go-ipfs yet'
       },
       {
+=======
+>>>>>>> refactor: return CIDs from core
         name: 'should read from outside of mfs',
         reason: 'TODO not implemented in go-ipfs yet'
       },
       {
         name: 'should ls from outside of mfs',
         reason: 'TODO not implemented in go-ipfs yet'
+<<<<<<< HEAD
       },
       {
         name: 'should change file mode',
@@ -260,6 +264,8 @@ describe('interface-ipfs-core tests', () => {
       {
         name: 'should write file and specify mtime as hrtime',
         reason: 'TODO not implemented in go-ipfs yet'
+=======
+>>>>>>> refactor: return CIDs from core
       }
     ]
   })
