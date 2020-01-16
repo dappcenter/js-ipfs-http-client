@@ -402,12 +402,12 @@ for await (const file of ipfs.add(globSource('./docs', { recursive: true }))) {
 /*
 {
   path: 'docs/assets/anchor.js',
-  hash: 'QmVHxRocoWgUChLEvfEyDuuD6qJ4PhdDL2dTLcpUy3dSC2',
+  cid: CID('QmVHxRocoWgUChLEvfEyDuuD6qJ4PhdDL2dTLcpUy3dSC2'),
   size: 15347
 }
 {
   path: 'docs/assets/bass-addons.css',
-  hash: 'QmPiLWKd6yseMWDTgHegb8T7wVS7zWGYgyvfj7dGNt2viQ',
+  cid: CID('QmPiLWKd6yseMWDTgHegb8T7wVS7zWGYgyvfj7dGNt2viQ'),
   size: 232
 }
 ...
@@ -437,7 +437,7 @@ for await (const file of ipfs.add(urlSource('https://ipfs.io/images/ipfs-logo.sv
 /*
 {
   path: 'ipfs-logo.svg',
-  hash: 'QmTqZhR6f7jzdhLgPArDPnsbZpvvgxzCZycXK7ywkLxSyU',
+  cid: CID('QmTqZhR6f7jzdhLgPArDPnsbZpvvgxzCZycXK7ywkLxSyU'),
   size: 3243
 }
 */
